@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 11.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="11.0">
+ <Targets>
+  <Target Name="C:\Users\Ярослав\documents\visual studio 2012\Projects\Dikto\Dikto\bin\Debug\Dikto.exe">
+   <Modules>
+    <Module Name="dikto.exe">
+     <Namespaces>
+      <Namespace Name="Dikto">
+       <Types>
+        <Type Name="form_main" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Dispose(System.Boolean)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="waveIn" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2012-12-23 15:17:27Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\Ярослав\Documents\Visual Studio 2012\Projects\Dikto\Dikto" File="Form1.Designer.cs" Line="15">'form_main' содержит поле 'form_main.waveIn' типа IDisposable: 'WaveIn'. Замените метод Dispose для 'form_main' на вызов Dispose или Close по этому полю.</Issue>
+            </Message>
+            <Message Id="waveOutDevice" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2012-12-23 15:17:27Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\Ярослав\Documents\Visual Studio 2012\Projects\Dikto\Dikto" File="Form1.Designer.cs" Line="15">'form_main' содержит поле 'form_main.waveOutDevice' типа IDisposable: 'IWavePlayer'. Замените метод Dispose для 'form_main' на вызов Dispose или Close по этому полю.</Issue>
+            </Message>
+            <Message Id="writer" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2012-12-23 15:17:27Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\Ярослав\Documents\Visual Studio 2012\Projects\Dikto\Dikto" File="Form1.Designer.cs" Line="15">'form_main' содержит поле 'form_main.writer' типа IDisposable: 'WaveFileWriter'. Замените метод Dispose для 'form_main' на вызов Dispose или Close по этому полю.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213">
+   <Name>Следует высвобождать высвобождаемые поля</Name>
+   <Description>Если типу, реализующему IDisposable, принадлежат поля, которые также реализуют IDisposable, реализация Dispose() инкапсулирующего типа должна вызывать Dispose() по каждому высвобождаемому полю.</Description>
+   <Resolution Name="Default">{0} содержит поле {1} типа IDisposable: {2}. Замените метод Dispose для {0} на вызов Dispose или Close по этому полю.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182328(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="11.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Категория</String>
+  <String Key="Certainty">Достоверность</String>
+  <String Key="CollapseAll">Свернуть все</String>
+  <String Key="CheckId">ИД проверки</String>
+  <String Key="Error">Ошибка</String>
+  <String Key="Errors">ошибки</String>
+  <String Key="ExpandAll">Развернуть все</String>
+  <String Key="Help">Справка</String>
+  <String Key="Line">Строка</String>
+  <String Key="Messages">сообщения</String>
+  <String Key="LocationNotStoredInPdb">[расположение не сохранено в PDB]</String>
+  <String Key="Project">Проект</String>
+  <String Key="Resolution">Разрешение</String>
+  <String Key="Rule">Правило</String>
+  <String Key="RuleFile">Файл правил</String>
+  <String Key="RuleDescription">Описание правила</String>
+  <String Key="Source">Источник</String>
+  <String Key="Status">Состояние</String>
+  <String Key="Target">Цель</String>
+  <String Key="Warning">Предупреждение</String>
+  <String Key="Warnings">предупреждения</String>
+  <String Key="ReportTitle">Отчет по анализу кода</String>
+ </Localized>
+</FxCopReport>

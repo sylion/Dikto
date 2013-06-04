@@ -1,0 +1,14 @@
+c:\users\ярослав\documents\visual studio 2012\Projects\Dikto\Dikto\bin\Debug\Dikto.exe.config
+c:\users\ярослав\documents\visual studio 2012\Projects\Dikto\Dikto\bin\Debug\Dikto.exe
+c:\users\ярослав\documents\visual studio 2012\Projects\Dikto\Dikto\bin\Debug\Dikto.pdb
+c:\users\ярослав\documents\visual studio 2012\Projects\Dikto\Dikto\obj\Debug\Dikto.csprojResolveAssemblyReference.cache
+c:\users\ярослав\documents\visual studio 2012\Projects\Dikto\Dikto\obj\Debug\Dikto.Properties.Resources.resources
+c:\users\ярослав\documents\visual studio 2012\Projects\Dikto\Dikto\obj\Debug\Dikto.csproj.GenerateResource.Cache
+c:\users\ярослав\documents\visual studio 2012\Projects\Dikto\Dikto\obj\Debug\Dikto.exe
+c:\users\ярослав\documents\visual studio 2012\Projects\Dikto\Dikto\obj\Debug\Dikto.pdb
+c:\users\ярослав\documents\visual studio 2012\Projects\Dikto\Dikto\obj\Debug\Dikto.form_main.resources
+C:\Users\Ярослав\documents\visual studio 2012\Projects\Dikto\Dikto\bin\Debug\Dikto.exe.CodeAnalysisLog.xml
+C:\Users\Ярослав\documents\visual studio 2012\Projects\Dikto\Dikto\bin\Debug\Dikto.exe.lastcodeanalysissucceeded
+D:\Dropbox\Документы\Work\Dikto\Dikto\bin\Debug\Dikto.exe.config
+D:\Dropbox\Документы\Work\Dikto\Dikto\obj\Debug\Dikto.exe
+D:\Dropbox\Документы\Work\Dikto\Dikto\obj\Debug\Dikto.pdb
